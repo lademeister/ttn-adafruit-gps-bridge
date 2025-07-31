@@ -1,6 +1,6 @@
-# TTN to Adafruit IO Bridge
+# TTN to Adafruit IO Bridge for GPS tracker
 
-Empfängt TTN Webhook Uplinks mit Latitude/Longitude und sendet sie an Adafruit IO Feed.
+Empfängt TTN Webhook Uplinks mit Latitude/Longitude und sendet sie an Adafruit.io Feed.
 
 ## Deployment
 
@@ -14,11 +14,11 @@ Empfängt TTN Webhook Uplinks mit Latitude/Longitude und sendet sie an Adafruit 
    - ADAFRUIT_FEED=location-ttn
 4. TTN Konsole:
    - Application → Integrations → Webhooks → Custom Webhook hinzufügen
-   - Base URL: `https://<dein-render-service>.onrender.com/ttn`
+   - Base URL: `https://<your-render-service>.onrender.com/ttn`
    - POST-Methode, kein Body-Template
 5. Adafruit IO:
-   - Feed `location-ttn` anlegen
-   - Map Block im Dashboard anlegen, Feed hinzufügen, Spur aktivieren
+   - Feed `location-ttn` anlegen (oder wahlweise anderen Namen, oder bestehender Feed)
+   - Map Block im Dashboard anlegen folls noch nciht vorhandne, Feed hinzufügen, Spur aktivieren falls gewünscht
 
 ## Hinweis
 
